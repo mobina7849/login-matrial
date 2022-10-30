@@ -26,10 +26,10 @@ const Todo = () => {
         </Box>
         <Grid display={'flex'} sx={{flexDirection:"column",alignItems:'center'}} xs={12}  p={3}>
             <Grid alignSelf={'flex-end'} ><Typography variant={'h3'}>Good Afternoon</Typography></Grid>
-            <Grid ><img src={clock} /></Grid>
+            <Grid  ><img src={clock}  /></Grid>
             <Grid alignSelf={'flex-start'}><Typography variant={'h3'}>Task Lists</Typography></Grid>
-            <Grid width={'80%'} bgcolor={'white'} height={250} p={1} marginTop={1}>
-                <Grid display={'flex'} justifyContent={'space-between'} sx={{px:2,marginBottom:1}}>               <Typography variant={'h3'}>Daily Tasks</Typography>
+            <Grid width={'80%'} bgcolor={'white'} height={250} p={1} marginTop={1} boxShadow={'0'}>
+                <Grid display={'flex'} justifyContent={'space-between'} sx={{px:2,marginBottom:1}}><Typography variant={'h3'}>Daily Tasks</Typography>
                 <AddCircleIcon color='primary'sx={{cursor:'pointer'}}/></Grid>
                 <ListItemm/>
                 </Grid>
